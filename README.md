@@ -13,7 +13,7 @@ Da qui per iniziare una presa dati è necessario inserire un path dove salvare i
 
 'Display Data' permette di visualizzare il file specificato nel campo per il path.
 
-Con un path esistente inserito è possibile cliccare 'PlotFit' per aprire la schermata di visualizzazione e fit.
+Con un path esistente inserito è possibile cliccare 'PlotFit' per aprire la schermata di visualizzazione e fit (viene creato un oggetto della classe 'FitPanel').
 
 ## PlotFit
 'Fit' esegue un fit ai dati (tutti, a meno di diverse indicazioni) e visualizza la curva risultante e i valori dei parametri fittati. I valori iniziali dei parametri possono essere costretti nel pannello sulla destra.
