@@ -1,3 +1,35 @@
+English version (IT below)
+# Z
+The program is started with:
+
+`python3 Z_arduino.py`
+
+A window pop up, and allows to select the lab experience (only armonic oscillator for the moment)
+
+## Armonic oscillator 
+After selecting the pbscillator, by pressing start a 'Start_oscillatore' object is created and the correspondent panel opened.
+To start a data taking session iti is necessary to insert a path where to save the data and an aquisition time. Then click 'Begin' (without any path an error message is displayed).
+
+'Clear' zeros all the fields.
+
+'Display Data' permits to visualize the file specified in the path field.
+
+With an existing path it is possible to select 'PlotFit' to open the fit and visualization window (an object of the class 'FitPanel' is created).
+
+## PlotFit
+'Fit' executes a fit to the data (all of them, unless further specified) and visualize the resulting curve and the fitted parameters. The initial values can be constrained in the right panel.
+
+Attention: if you decide to constraint the parameters, you havo to do it for all of them.
+
+## Data Generation
+With:
+
+`python gen_data.py`
+
+A "sin_data.txt" data file is generated vased on the function used to fit (as a test the fit is working).
+
+Italian version
+
 # Z
 Il programma si avvia con:
 
